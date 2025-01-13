@@ -51,6 +51,7 @@ enum tap_dance_codes {
 #define PT_Z LT(LAYER_POINTER, KC_Z)
 #define PT_SLSH LT(LAYER_POINTER, KC_SLSH)
 #define QMS LT(LAYER_POINTER,KC_Q)
+#define WBSPC LCTL(KC_BSPC)
 
 #ifndef POINTING_DEVICE_ENABLE
 #    define DRGSCRL KC_NO
