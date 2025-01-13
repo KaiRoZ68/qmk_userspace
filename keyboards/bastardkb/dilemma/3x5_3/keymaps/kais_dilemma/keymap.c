@@ -27,7 +27,7 @@ enum dilemma_keymap_layers {
     LAYER_NUMERAL,
     LAYER_SYMBOLS,
 };
-
+//test
 enum tap_dance_codes {
     DANCE_1,
     DANCE_2,
@@ -64,7 +64,7 @@ enum tap_dance_codes {
 /** \brief QWERTY layout (3 rows, 10 columns). */
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [LAYER_BASE] = LAYOUT_split_3x5_3(
-    QMS,            KC_W,           KC_E,           KC_R,          KC_T,       TD(DANCE_Y),    KC_U,           KC_I,           KC_O,          KC_P,
+    QMS,             KC_W,           KC_E,           KC_R,          KC_T,       TD(DANCE_Y),    KC_U,           KC_I,           KC_O,          KC_P,
     KC_A,            LGUI_T(KC_S),   LALT_T(KC_D),   LCTL_T(KC_F),  KC_G,       KC_H,   RCTL_T(KC_J),   RALT_T(KC_K),   RGUI_T(KC_L),  KC_SCLN,
     LSFT_T(KC_Z),    TD(DANCE_X),    TD(DANCE_C),    TD(DANCE_V),   KC_B,       KC_N,           KC_M,           KC_COMM,        KC_DOT,        RSFT_T(KC_SLSH),
                               ESC_MED,        TAB_FUN,        ENT_SYM,         SPC_NAV,         BSP_NUM,      KC_DEL
