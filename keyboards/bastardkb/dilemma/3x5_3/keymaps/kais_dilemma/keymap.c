@@ -50,7 +50,7 @@ enum tap_dance_codes {
 #define BSP_NUM LT(LAYER_NUMERAL, KC_BSPC)
 #define PT_Z LT(LAYER_POINTER, KC_Z)
 #define PT_SLSH LT(LAYER_POINTER, KC_SLSH)
-#define QMS LT(_MOUSE,KC_Q)
+#define QMS LT(LAYER_POINTER,KC_Q)
 
 #ifndef POINTING_DEVICE_ENABLE
 #    define DRGSCRL KC_NO
